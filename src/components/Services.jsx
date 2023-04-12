@@ -1,6 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { AiFillIeCircle, AiFillAndroid, AiFillWindows } from "react-icons/ai";
+import {
+  AiFillIeCircle,
+  AiFillWindows,
+} from "react-icons/ai";
+import { GiAndromedaChain } from "react-icons/gi";
 
 const Services = () => {
   const animations = {
@@ -33,7 +37,7 @@ const Services = () => {
           whileInView={animations.whileInView}
           initial={animations.one}
         >
-          <h3>5+</h3>
+          <h3>3</h3>
           <p>Years Experience</p>
         </motion.div>
         <motion.div
@@ -52,8 +56,8 @@ const Services = () => {
             delay: 0.2,
           }}
         >
-          <AiFillAndroid />
-          <span>App Development</span>
+          <GiAndromedaChain />
+          <span>Blockchain Developer</span>
         </motion.div>
         <motion.div
           className="serviceBox4"
